@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./dbfolder",
+        "./payment",
+        "./payment"
+    ]
+}
