@@ -7,7 +7,7 @@ function sendreward($userid){
     
 
 $data = array(
-    'api_key' => "6718f14c5b1441187e4174d11383bd56fb486af2",
+    'api_key' => "d4bbecbaceaec2a435165349e3404b84a89e8ba0",
     'to' => $userid,
     'amount'=> 1000000
 );
@@ -54,7 +54,8 @@ $userwallet=$row['walletaddress'];
 
 
   }
-  echo "BITCOIN REWARD IS SENT TO YOUR WALLET";
+  sendreward($userwallet);
+  echo "REWARD IS SENT TO YOUR WALLET";
   $sql = "DELETE FROM url WHERE urlid='{$id}'";
   $result = $conn->query($sql);
 } else {

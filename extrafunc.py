@@ -1,4 +1,3 @@
-from turtle import up
 from faucetpay import faucetpay
 from shortenlinkdb import linkdb
 from func import join_group, shorten_link, use_bot
@@ -20,7 +19,7 @@ sys.path.append("./dbfolder")
 sys.path.append("./payment")
 from pay import payuser
 from mysqlfunc import mysqldb
-token = "2028867157:AAGLQujsMJc1K_hTIpjkhlYzkmBdPRgaNds"
+token = "5345982495:AAFT-hrbLkRuYLuhnpLcSrMOI8-wgt0CkLc"
 bot=Bot(token)
 
 wallet=faucetpay()
@@ -50,25 +49,25 @@ def txt(update: Update, context: CallbackContext, query) -> None:
     ]
     api_url = [
         "https://linksly.co/api?api=02d3d29b17e81ff788f778dff5404a235aebcb46&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "https://shrinkme.io/api?api=c19e858f604c99b835d70d01ad10f615e7149b12&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "https://clicksfly.com/api?api=e18e6a50b9336328f77ccd40aa1f1e31040bd389&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "https://shrinkearn.com/api?api=6fd1f6722e1556fbc27dd3a907f8fa81257d3fcf&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "http://ouo.io/api/grKNePKA?s=" +
-        "faucetbank.xyz/claim.php?id=",
+        "13.127.155.81/clickbot/claim.php?id=",
         "https://clk.sh/api?api=07bb8368a396a339019e69c45de2ef3db75b4eac&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "https://shortzon.com/api?api=011b8056011239a47dd5c0505a749765dd85e779&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "https://shrink.pe/api?api=2cb9e12596197b7d5f9d269e9fadf27274f42fb4&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "https://uii.io/api?api=0b4b9981aab91b780d59008f4f0555be51402183&url="
-        + "faucetbank.xyz/claim.php?id=",
+        + "13.127.155.81/clickbot/claim.php?id=",
         "https://oke.io/api/?api=627180d0d32d1919ba5e0da2084e5d72933fba6f&url="
-        + "faucetbank.xyz/claim.php?id="
+        + "13.127.155.81/clickbot/claim.php?id="
     ]
     if program in programs:
         if checkdelay(program, update.callback_query.from_user.id) == "error":

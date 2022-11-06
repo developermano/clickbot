@@ -18,7 +18,6 @@ def sendmenu(update, context):
 
         ],
         [
-            KeyboardButton("💰 monitizegroup"),
             KeyboardButton("💸 monitizechannel"),
             KeyboardButton("😎 referral"),
             KeyboardButton("👛 wallet"),

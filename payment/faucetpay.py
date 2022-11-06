@@ -5,7 +5,7 @@ regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
 
 class faucetpay:
     def __init__(self) -> None:
-        self.wallet = Api("11ea9bb844c00d9af95b6ff20a8d52db36cf0e80")
+        self.wallet = Api("d4bbecbaceaec2a435165349e3404b84a89e8ba0")
 
     def check(self, email):
         if(re.fullmatch(regex, email)):

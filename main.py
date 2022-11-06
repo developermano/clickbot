@@ -167,8 +167,6 @@ def text(update: Update, context: CallbackContext) -> None:
         captcha(update, context)
     if update.message.text == "📹 watch video":
         watch_video(update, context)
-    if update.message.text == "💰 monitizegroup":
-        monetize_group(update, context)
     if update.message.text == "💸 monitizechannel":
         monetize_channel(update, context)
     if update.message.text == "😎 referral":
@@ -235,7 +233,7 @@ def checkforward(update: Update,context: CallbackContext):
 def main() -> None:
     """Run the bot."""
     # Create the Updater and pass it your bot's token.
-    token = "2028867157:AAGLQujsMJc1K_hTIpjkhlYzkmBdPRgaNds"
+    token = "5345982495:AAFT-hrbLkRuYLuhnpLcSrMOI8-wgt0CkLc"
     updater = Updater(token)
 
     updater.dispatcher.add_handler(CommandHandler('start', start))

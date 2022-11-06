@@ -174,8 +174,7 @@ def watch_video(update, context):
     update.message.reply_text("there is no ads.")
 
 
-def monetize_group(update, context):
-    update.message.reply_text("coming soon")
+
 
 
 def monetize_channel(update, context):
@@ -187,12 +186,11 @@ def referral(update, context):
 
 earn from your referral :
 
-1. 10% of your referral task earnings ⚔
-2. 5% of your referral deposit . ⛽
+10% of your referral task earnings ⚔
 
 💰 earn extra income using this referral program and refer your friends using this link:
 
-👉 https://t.me/shareandearnbot?start='''+str(update.message.from_user.id)
+👉 https://t.me/Faucet_click_bot?start='''+str(update.message.from_user.id)
     update.message.reply_text(referral_txt)
 
 
@@ -235,7 +233,7 @@ def myads(update: Update, context):
                         InlineKeyboardButton("change cpc", callback_data=str("changeadcpc_")+str(i[0])),
                     ],
                     [
-                        InlineKeyboardButton("add budget", url=str("https://faucetbank.xyz/deposit.php?id="+str(i[0])))
+                        InlineKeyboardButton("add budget", url=str("http://13.127.155.81/clickbot/deposit.php?id="+str(i[0])))
                     ],
                     
                     ]
